@@ -1,0 +1,17 @@
+.DS_Store
+*~
+*.bak
+.idea/
+
+# Xcode
+build/
+*.pbxuser
+*.mode1v3
+xcuserdata
+*.pch
+*.xcuserstate
+*.xcuserdatad/
+*.xccheckout
+*.xcworkspacedata
+*.xcworkspace/
+
