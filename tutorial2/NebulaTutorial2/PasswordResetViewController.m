@@ -3,7 +3,7 @@
 //  Copyright (c) 2014年 NEC Corporation. All rights reserved.
 //
 
-#import "nebulaIosSdk/Nebula.h"
+#import <NecBaas/Nebula.h>
 
 #import "PasswordResetViewController.h"
 #import "LoginViewController.h"

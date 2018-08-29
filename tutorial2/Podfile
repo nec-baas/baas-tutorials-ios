@@ -1,0 +1,13 @@
+platform :ios, '9.0'
+
+target 'NebulaTutorial2' do
+  use_frameworks!
+
+  pod 'NecBaas', '~> 7.5.0-rc1'
+  #pod 'NecBaas', :git => 'https://github.com/nec-baas/baas-client-ios.git', :tag => '7.5.0-rc1'
+
+  target 'NebulaTutorial2Tests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+end

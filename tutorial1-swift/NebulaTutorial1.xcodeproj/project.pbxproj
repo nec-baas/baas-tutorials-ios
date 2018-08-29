@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3E3FCC1A1A480BBD00085658 /* TodoEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3FCC191A480BBD00085658 /* TodoEditViewController.swift */; };
-		3E646D811A37DBB700A5BD0C /* nebulaIosSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E646D7F1A37D88E00A5BD0C /* nebulaIosSdk.framework */; };
 		3E7344981A47FACA001BD4F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7344971A47FACA001BD4F3 /* AppDelegate.swift */; };
 		3E7344C81A47FBBB001BD4F3 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7344C71A47FBBB001BD4F3 /* Config.swift */; };
 		3E7344CA1A47FE77001BD4F3 /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7344C91A47FE77001BD4F3 /* TodoListViewController.swift */; };
@@ -16,6 +15,8 @@
 		3EE697611A37D67E0070F4DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EE697601A37D67E0070F4DA /* Images.xcassets */; };
 		3EE697641A37D67E0070F4DA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EE697621A37D67E0070F4DA /* LaunchScreen.xib */; };
 		3EE697701A37D67E0070F4DA /* NebulaTutorial1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EE6976F1A37D67E0070F4DA /* NebulaTutorial1Tests.m */; };
+		7DEAF11651E4EDD1A87C49BE /* Pods_NebulaTutorial1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B0A402ABB77AB6F55E95121 /* Pods_NebulaTutorial1.framework */; };
+		966F55D34BBC8184B33E69C8 /* Pods_NebulaTutorial1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A5BE9E259646AB94316473 /* Pods_NebulaTutorial1Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +31,6 @@
 
 /* Begin PBXFileReference section */
 		3E3FCC191A480BBD00085658 /* TodoEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoEditViewController.swift; sourceTree = "<group>"; };
-		3E646D7F1A37D88E00A5BD0C /* nebulaIosSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = nebulaIosSdk.framework; sourceTree = "<group>"; };
 		3E7344961A47FACA001BD4F3 /* NebulaTutorial1-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NebulaTutorial1-Bridging-Header.h"; sourceTree = "<group>"; };
 		3E7344971A47FACA001BD4F3 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E7344C71A47FBBB001BD4F3 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
@@ -43,6 +43,12 @@
 		3EE697691A37D67E0070F4DA /* NebulaTutorial1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NebulaTutorial1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EE6976E1A37D67E0070F4DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EE6976F1A37D67E0070F4DA /* NebulaTutorial1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NebulaTutorial1Tests.m; sourceTree = "<group>"; };
+		479EDCE3A77D19C19123C062 /* Pods-NebulaTutorial1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NebulaTutorial1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NebulaTutorial1/Pods-NebulaTutorial1.debug.xcconfig"; sourceTree = "<group>"; };
+		4B0A402ABB77AB6F55E95121 /* Pods_NebulaTutorial1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NebulaTutorial1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B5D8F97E135845809988FCB /* Pods-NebulaTutorial1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NebulaTutorial1Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NebulaTutorial1Tests/Pods-NebulaTutorial1Tests.release.xcconfig"; sourceTree = "<group>"; };
+		91A5BE9E259646AB94316473 /* Pods_NebulaTutorial1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NebulaTutorial1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99011975EC4AFA252730516D /* Pods-NebulaTutorial1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NebulaTutorial1Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NebulaTutorial1Tests/Pods-NebulaTutorial1Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E0AC155537B658375BFB4BC1 /* Pods-NebulaTutorial1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NebulaTutorial1.release.xcconfig"; path = "Pods/Target Support Files/Pods-NebulaTutorial1/Pods-NebulaTutorial1.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E646D811A37DBB700A5BD0C /* nebulaIosSdk.framework in Frameworks */,
+				7DEAF11651E4EDD1A87C49BE /* Pods_NebulaTutorial1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				966F55D34BBC8184B33E69C8 /* Pods_NebulaTutorial1Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,7 +74,8 @@
 		3E646D7A1A37D70500A5BD0C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3E646D7F1A37D88E00A5BD0C /* nebulaIosSdk.framework */,
+				4B0A402ABB77AB6F55E95121 /* Pods_NebulaTutorial1.framework */,
+				91A5BE9E259646AB94316473 /* Pods_NebulaTutorial1Tests.framework */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
@@ -79,6 +87,7 @@
 				3EE6976C1A37D67E0070F4DA /* NebulaTutorial1Tests */,
 				3E646D7A1A37D70500A5BD0C /* Frameworks */,
 				3EE697511A37D67E0070F4DA /* Products */,
+				92F0223CA2755F6CE101891F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +141,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		92F0223CA2755F6CE101891F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				479EDCE3A77D19C19123C062 /* Pods-NebulaTutorial1.debug.xcconfig */,
+				E0AC155537B658375BFB4BC1 /* Pods-NebulaTutorial1.release.xcconfig */,
+				99011975EC4AFA252730516D /* Pods-NebulaTutorial1Tests.debug.xcconfig */,
+				7B5D8F97E135845809988FCB /* Pods-NebulaTutorial1Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3EE697731A37D67E0070F4DA /* Build configuration list for PBXNativeTarget "NebulaTutorial1" */;
 			buildPhases = (
+				9ACD11875FEA00D71E34637A /* [CP] Check Pods Manifest.lock */,
 				3EE6974C1A37D67E0070F4DA /* Sources */,
 				3EE6974D1A37D67E0070F4DA /* Frameworks */,
 				3EE6974E1A37D67E0070F4DA /* Resources */,
+				DD6521B66E2BA4F765913FFA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -156,6 +178,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3EE697761A37D67E0070F4DA /* Build configuration list for PBXNativeTarget "NebulaTutorial1Tests" */;
 			buildPhases = (
+				ED1C68B8B6407A31E6A1619C /* [CP] Check Pods Manifest.lock */,
 				3EE697651A37D67E0070F4DA /* Sources */,
 				3EE697661A37D67E0070F4DA /* Frameworks */,
 				3EE697671A37D67E0070F4DA /* Resources */,
@@ -232,6 +255,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9ACD11875FEA00D71E34637A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NebulaTutorial1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD6521B66E2BA4F765913FFA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NebulaTutorial1/Pods-NebulaTutorial1-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/NecBaas/NecBaas.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NecBaas.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NebulaTutorial1/Pods-NebulaTutorial1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED1C68B8B6407A31E6A1619C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NebulaTutorial1Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3EE6974C1A37D67E0070F4DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -285,6 +365,7 @@
 		3EE697711A37D67E0070F4DA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -338,6 +419,7 @@
 		3EE697721A37D67E0070F4DA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -384,19 +466,14 @@
 		};
 		3EE697741A37D67E0070F4DA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 479EDCE3A77D19C19123C062 /* Pods-NebulaTutorial1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/Frameworks",
-				);
 				INFOPLIST_FILE = NebulaTutorial1/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nec.ios.nebula.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -408,19 +485,14 @@
 		};
 		3EE697751A37D67E0070F4DA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0AC155537B658375BFB4BC1 /* Pods-NebulaTutorial1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/Frameworks",
-				);
 				INFOPLIST_FILE = NebulaTutorial1/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nec.ios.nebula.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -431,18 +503,14 @@
 		};
 		3EE697771A37D67E0070F4DA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99011975EC4AFA252730516D /* Pods-NebulaTutorial1Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = NebulaTutorial1Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nec.ios.nebula;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -452,14 +520,10 @@
 		};
 		3EE697781A37D67E0070F4DA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B5D8F97E135845809988FCB /* Pods-NebulaTutorial1Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
 				INFOPLIST_FILE = NebulaTutorial1Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nec.ios.nebula;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

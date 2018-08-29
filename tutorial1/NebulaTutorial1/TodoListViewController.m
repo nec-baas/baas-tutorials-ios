@@ -4,7 +4,7 @@
 //  Copyright (c) 2014-2018, NEC Corporation. All rights reserved.
 //
 
-#import "nebulaIosSdk/Nebula.h"
+#import <NecBaas/Nebula.h>
 
 #import "TodoListViewController.h"
 #import "TodoEditViewController.h"
